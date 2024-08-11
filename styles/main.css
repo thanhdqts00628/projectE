@@ -250,7 +250,7 @@ body {
 .box7,
 .box9 {
     display: flex; flex-direction: column;
-    justify-content: center; align-items: center;
+    justify-content: space-between; align-items: center;
 
     .header {
         font-size: 4.7vw;
@@ -263,9 +263,9 @@ body {
     } p {
         width: 60%; height: 100%;
         display: flex; align-items: center;
-        font-family: brush; font-size: 1.7vw;
+        font-family: brush; font-size: 1.4vw;
         text-align: justify;
     } img {
-        width: auto; height: 194px;
+        width: auto; height: 25vh;
     }
 }
